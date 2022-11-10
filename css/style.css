@@ -5,8 +5,8 @@
 }
 
 .container{
-    text-align: center;
-    width: 803px;
+    /* text-align: center; */
+    width: 863px;
     margin: 30px auto 0;
 }
 
@@ -14,11 +14,13 @@ h1{
     font-family: 'Fredoka One', cursive;
     color: #e53170;
     margin-bottom: 40px;
+    text-align: center;
 }
 
-p{
-    margin-bottom: 40px;
+span{
+    text-align: left;
     font-family: 'Fredoka' solid, sans-serif;
+    display:inline-block;
 }
 
 .clearfix::after{
@@ -34,11 +36,16 @@ p{
 div{
     background-color: #0f0e17;
     display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: white;
 }
 
 img{
     width: 100px;
     height: 100px;
+    
 }
 
 h3{
@@ -47,4 +54,15 @@ h3{
     display: inline-block;
     vertical-align: top;
     margin: 10px;
+}
+
+.email{
+    color: #129ae5;
+}
+
+.info{
+    margin-bottom: 40px;
+    display:inline-block;
+    vertical-align: left;
+    text-align: center;
 }
