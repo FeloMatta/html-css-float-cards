@@ -6,8 +6,8 @@
 
 .container{
     /* text-align: center; */
-    width: 863px;
-    margin: 30px auto 0;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 h1{
@@ -17,10 +17,8 @@ h1{
     text-align: center;
 }
 
-span{
-    text-align: left;
+p{
     font-family: 'Fredoka' solid, sans-serif;
-    display:inline-block;
 }
 
 .clearfix::after{
@@ -33,26 +31,15 @@ span{
     float: left;
 }
 
-div{
-    background-color: #0f0e17;
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    color: white;
-}
-
 img{
     width: 100px;
     height: 100px;
-    
+    display: inline-block;
 }
 
 h3{
     font-family: 'Fredoka One', cursive;
     color: white;
-    display: inline-block;
-    vertical-align: top;
     margin: 10px;
 }
 
@@ -65,4 +52,28 @@ h3{
     display:inline-block;
     vertical-align: left;
     text-align: center;
+}
+
+.column{
+    width: calc((100% / 3) - 20px);
+    height: 100px;
+    background-color: #0f0e17;
+}
+
+.column-center{
+    margin: 0 30px;
+}
+
+.float-left p{
+    color: white;
+    margin-left: 10px;
+}
+
+a{
+    margin-left: 10px;
+    color: #1b8fce;
+}
+
+.contenitore-riga{
+    margin-top: 40px;
 }
